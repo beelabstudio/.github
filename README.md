@@ -41,12 +41,12 @@ The `skills/` directory contains reusable AI skill definitions (`SKILL.md` files
 Clone this repository to use shared skills locally:
 
 ```bash
-git clone git@github.com:beelabstudio/.github.git ~/repos/beelabstudio-github
+git clone git@github.com:beelabstudio/.github.git ~/repos/.github
 ```
 
 Then reference skills from your project's `copilot-instructions.md` using the path:
 ```
-~/repos/beelabstudio-github/skills/<category>/<skill-name>/SKILL.md
+~/repos/.github/skills/<category>/<skill-name>/SKILL.md
 ```
 
 ## 🏗️ Default project stack
