@@ -1,60 +1,60 @@
-## 📋 Descrição
+## 📋 Description
 
-> Descreve de forma clara e objetiva **o que foi implementado** neste PR.
-
----
-
-## 🔖 Tipo de alteração
-
-- [ ] ✨ `feat` — Nova funcionalidade
-- [ ] 🐛 `fix` — Correção de bug
-- [ ] 🚑 `hotfix` — Correção crítica em produção
-- [ ] ♻️ `refactor` — Refatoração sem mudança de comportamento
-- [ ] 🎨 `style` — Ajustes visuais / UI / CSS
-- [ ] 📝 `docs` — Documentação
-- [ ] 🔧 `chore` — Configuração, dependências, CI/CD
-- [ ] 🌐 `i18n` — Internacionalização / traduções
+> Clearly and objectively describe **what was implemented** in this PR.
 
 ---
 
-## 🔗 Referências
+## 🔖 Type of change
 
-| Tipo | Link |
+- [ ] ✨ `feat` — New feature
+- [ ] 🐛 `fix` — Bug fix
+- [ ] 🚑 `hotfix` — Critical production fix
+- [ ] ♻️ `refactor` — Refactoring without behaviour change
+- [ ] 🎨 `style` — Visual / UI / CSS adjustments
+- [ ] 📝 `docs` — Documentation
+- [ ] 🔧 `chore` — Configuration, dependencies, CI/CD
+- [ ] 🌐 `i18n` — Internationalisation / translations
+
+---
+
+## 🔗 References
+
+| Type | Link |
 |------|------|
-| Issue / Card | <!-- #número ou URL --> |
+| Issue / Card | <!-- #number or URL --> |
 | Design (Figma) | <!-- URL --> |
 | Staging / Preview | <!-- URL --> |
 
 ---
 
-## ✅ Checklist — Antes de abrir o PR
+## ✅ Checklist — Before opening the PR
 
-- [ ] O código compila e não tem erros de linting
-- [ ] Testei localmente nos principais browsers / dispositivos
-- [ ] Adicionei / atualizei chaves de i18n em **todos** os idiomas (`pt.json`, `en.json`)
-- [ ] Não há segredos, credenciais ou dados sensíveis no código
-- [ ] O título do PR segue [Conventional Commits](https://www.conventionalcommits.org/)
+- [ ] Code compiles with no linting errors
+- [ ] Tested locally on major browsers / devices
+- [ ] Added / updated i18n keys in **all** languages (`pt.json`, `en.json`)
+- [ ] No secrets, credentials or sensitive data in the code
+- [ ] PR title follows [Conventional Commits](https://www.conventionalcommits.org/)
 
 ---
 
 ## 🚀 Checklist — Deploy
 
-- [ ] As variáveis de ambiente / secrets necessários estão configurados
-- [ ] O workflow de CI/CD passou sem erros
-- [ ] Validado em ambiente de staging antes do merge para `main`
+- [ ] Required environment variables / secrets are configured
+- [ ] CI/CD workflow passed with no errors
+- [ ] Validated in staging environment before merging to `main`
 
 ---
 
-## 📸 Evidências (opcional)
+## 📸 Evidence (optional)
 
-> Screenshots, GIFs ou vídeos que ajudem o reviewer a entender a mudança visual.
+> Screenshots, GIFs or videos to help the reviewer understand the visual change.
 
-| Antes | Depois |
-|-------|--------|
-|       |        |
+| Before | After |
+|--------|-------|
+|        |       |
 
 ---
 
-## 💬 Notas para o reviewer
+## 💬 Notes for the reviewer
 
-> Contexto adicional, decisões técnicas tomadas, pontos de atenção ou trade-offs.
+> Additional context, technical decisions, points of attention or trade-offs.

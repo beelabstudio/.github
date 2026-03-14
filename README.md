@@ -1,28 +1,57 @@
-# BEELABSTUDIO — Padrões da Organização
+# BEELABSTUDIO — Organisation Standards
 
-Repositório central de **community health files**, templates e padrões de qualidade para todos os projetos da BEELABSTUDIO.
+Central repository for **community health files**, templates, and quality standards across all BEELABSTUDIO projects.
 
-## 📁 Estrutura
+## 📁 Structure
 
 ```
 .github/
-└── PULL_REQUEST_TEMPLATE.md   # Template genérico de Pull Request
+└── PULL_REQUEST_TEMPLATE.md        # Generic Pull Request template
+skills/
+├── domain/                         # Domain-specific AI skills
+├── enabling/                       # Enabling / cross-cutting AI skills
+├── foundation/                     # Foundation engineering role skills
+└── process/                        # Workflow and process skills
 ```
 
 ## 📋 Pull Request Template
 
-O arquivo `.github/PULL_REQUEST_TEMPLATE.md` é automaticamente aplicado a todos os repositórios da organização que **não possuam** um template próprio.
+The `.github/PULL_REQUEST_TEMPLATE.md` file is automatically applied to all organisation repositories that **do not have** their own template.
 
-Inclui:
-- Tipo de alteração (feat, fix, hotfix, refactor, style, docs, chore, i18n)
-- Referências a issues, design e staging
-- Checklist de qualidade de código
-- Checklist de deploy
-- Espaço para evidências visuais e notas ao reviewer
+Includes:
+- Type of change (feat, fix, hotfix, refactor, style, docs, chore, i18n)
+- References to issues, design and staging
+- Code quality checklist
+- Deploy checklist
+- Space for visual evidence and reviewer notes
 
-## 🏗️ Stack padrão dos projetos
+## 🤖 Shared AI Skills
+
+The `skills/` directory contains reusable AI skill definitions (`SKILL.md` files) organised by category. Clone this repository locally and reference skills from your project's `copilot-instructions.md`.
+
+| Category | Description |
+|----------|-------------|
+| `domain/` | Specialised domain knowledge (nutrition, databases, migrations…) |
+| `enabling/` | Cross-cutting capabilities (SEO, UX/UI, integrations, research…) |
+| `foundation/` | Core engineering roles (software engineer, QA, DBA, PM…) |
+| `process/` | Workflow and process skills (git, business analysis, fiscal…) |
+
+### Setup
+
+Clone this repository to use shared skills locally:
+
+```bash
+git clone git@github.com:beelabstudio/.github.git ~/repos/beelabstudio-github
+```
+
+Then reference skills from your project's `copilot-instructions.md` using the path:
+```
+~/repos/beelabstudio-github/skills/<category>/<skill-name>/SKILL.md
+```
+
+## 🏗️ Default project stack
 
 - HTML5 + CSS3 + Vanilla JavaScript (ES6+)
-- GitHub Actions para CI/CD
+- GitHub Actions for CI/CD
 - Conventional Commits (`feat:`, `fix:`, `chore:`, `docs:`)
 - Branches: `feature/`, `fix/`, `hotfix/`, `chore/`
