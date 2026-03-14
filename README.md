@@ -2,6 +2,10 @@
 
 Central repository for **community health files**, templates, and quality standards across all BEELABSTUDIO projects.
 
+## ⚠️ Global Rule — Language
+
+> **All documentation, comments, commit messages, README files, PR descriptions, and any other written artifact must be in English — regardless of the language used in the request.**
+
 ## 📁 Structure
 
 ```
